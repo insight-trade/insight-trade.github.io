@@ -13,11 +13,16 @@
     line-height: 26px;
 }
 .site-title:hover {
+    color: white;
     text-decoration: none;
     text-shadow: 6px 3px 6px #999;
 }
 .site-title > span {
-    padding-left:10px;
-    font-size:smaller;
+    padding-left: 20px;
+    font-size: 1.2rem;
     font-weight: normal;
+}
+.site-nav .page-link:hover {
+    text-decoration: none;
+    text-shadow: 6px 3px 6px #999;
 }
