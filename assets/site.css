@@ -2,9 +2,6 @@
     border-top:none;
     background-color: #3768e5;
 }
-.site-nav .page-link {
-    color: white;
-}
 .site-title, .site-title:visited {
     color: white;
 }
@@ -21,6 +18,11 @@
     padding-left: 20px;
     font-size: 1.2rem;
     font-weight: normal;
+}
+@media screen and (min-width: 600px) {
+    .site-nav .page-link {
+        color: white;
+    }
 }
 .site-nav .page-link:hover {
     text-decoration: none;
