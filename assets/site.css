@@ -5,7 +5,13 @@
 .site-nav .page-link {
     color: white;
 }
-
 .site-title, .site-title:visited {
     color: white;
+}
+.site-title > span {
+    font-weight:bolder;
+}
+.site-title > span {
+    padding-left:10px;
+    font-size:smaller;
 }
