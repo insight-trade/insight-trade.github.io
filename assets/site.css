@@ -8,10 +8,16 @@
 .site-title, .site-title:visited {
     color: white;
 }
-.site-title > span {
-    font-weight:bolder;
+.site-title {
+    font-weight: 700;
+    line-height: 26px;
+}
+.site-title:hover {
+    text-decoration: none;
+    text-shadow: 6px 3px 6px #999;
 }
 .site-title > span {
     padding-left:10px;
     font-size:smaller;
+    font-weight: normal;
 }
