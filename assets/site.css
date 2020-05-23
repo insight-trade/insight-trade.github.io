@@ -1,5 +1,6 @@
 .site-header {
     border-top:none;
+    padding: 10px 0 5px;
     background-color: #3768e5;
 }
 .site-title, .site-title:visited {
@@ -7,7 +8,7 @@
 }
 .site-title {
     font-weight: 700;
-    line-height: 26px;
+    line-height: 22px;
 }
 .site-title:hover {
     color: white;
@@ -16,7 +17,7 @@
 }
 .site-title > span {
     padding-left: 20px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: normal;
 }
 @media screen and (min-width: 600px) {
