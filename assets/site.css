@@ -11,10 +11,10 @@
     font-weight: 700;
     line-height: 22px;
 }
-.site-title:hover {
+.site-title:hover, .site-nav .page-link:hover {
     color: white;
     text-decoration: none;
-    text-shadow: 6px 3px 6px #999;
+    text-shadow: 6px 3px 6px black;
 }
 .site-title > span {
     padding-left: 20px;
@@ -25,10 +25,6 @@
     .site-nav .page-link {
         color: white;
     }
-}
-.site-nav .page-link:hover {
-    text-decoration: none;
-    text-shadow: 6px 3px 6px #999;
 }
 
 .clearfix:after {
