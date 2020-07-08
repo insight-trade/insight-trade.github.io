@@ -21,6 +21,7 @@
     font-size: 1rem;
     font-weight: normal;
 }
+
 @media screen and (min-width: 600px) {
     .site-nav .page-link {
         color: white;
@@ -47,7 +48,7 @@
 .product-list ul li {
     float: left;
     margin: 0 0px;
-    margin-bottom: 45px;
+    margin-bottom: 10px;
     background: #fff;
     transition: all .5s;
     border: 1px solid #ddd;
