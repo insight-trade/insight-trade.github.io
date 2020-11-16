@@ -238,7 +238,8 @@ table td {
     background-color: #fdfdfd;
     border: 1px solid #e8e8e8;
     border-radius: 5px;
-    text-align: right
+    text-align: right;
+    z-index: 1;
 }
 
 .site-nav .nav-trigger {
