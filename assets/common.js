@@ -26,7 +26,7 @@ $(function() {
             toTop.fadeIn(settings.inDelay);
             toTopHidden = false;
         }
-        else if(sd <= settings.min && ! toTopHidden)
+        else if (sd <= settings.min && ! toTopHidden)
         {
             toTop.fadeOut(settings.outDelay);
             toTopHidden = true;
@@ -42,5 +42,9 @@ $(function() {
         autoplay: true,
         autoplaySpeed: 3000,
         arrows: false,
+    });
+
+    $('#contact-bar').on('click', function() {
+        window.scrollTo(0, document.body.scrollHeight);
     });
 });

@@ -528,23 +528,6 @@ table td {
     color: #e8e8e8;
     border: 1px dashed
 }
-#to-top {
-    display: none;
-    text-decoration: none;
-    position: fixed;
-    bottom: .75rem;
-    right: .75rem;
-    overflow: hidden;
-    width: 43px;
-    height: 43px;
-    border: none;
-    z-index: 100;
-}
-#to-top-hover {
-    display: block;
-    overflow: hidden;
-    float: left;
-}
 
 @media screen and (min-width: 800px) {
     .one-half {

@@ -97,3 +97,94 @@
 .product h3 {
     color:red;
 }
+
+#to-top {
+    display: none;
+    text-decoration: none;
+    position: fixed;
+    bottom: .75rem;
+    right: .75rem;
+    overflow: hidden;
+    width: 43px;
+    height: 43px;
+    border: none;
+    z-index: 100;
+}
+#to-top-hover {
+    display: block;
+    overflow: hidden;
+    float: left;
+}
+
+#contact-bar {
+    /* fixed-style */
+    position: fixed;
+    z-index: 99;
+
+    left: initial !important;
+    right: 0 !important;
+    margin-right: 10px;
+    margin-left: 10px;
+
+    background-position: left top;
+    background-repeat: repeat;
+    background-attachment: scroll;
+
+    font-family: Arial;
+    font-size: 14px;
+    color: #545454;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.7em;
+
+    direction: initial !important;
+    text-align: center !important;
+}
+@media screen and (min-width: 800px) {
+    #contact-bar {
+        /* fixed-style */
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+#contact-bar .list {
+
+    list-style: none;
+
+    background: rgba(0,0,0,0.3) !important;
+
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+#contact-bar .list > li {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    margin-bottom: 0 !important;
+
+    color: #fff;
+    background: transparent;
+}
+
+@media screen and (min-width: 800px) {
+    #contact-bar .list > li {
+        line-height: 28px;
+        white-space: nowrap;
+    }
+
+    #contact-bar .list > li .icon {
+        line-height: 50px;
+        width: 28px;
+        height: 28px;
+        font-size: 25px;
+    }
+}
+
+#contact-bar a {
+    /*background: rgba(74,74,74,0);*/
+    color: #fff;
+}
