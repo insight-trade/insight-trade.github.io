@@ -150,8 +150,8 @@
 @media screen and (min-width: 800px) {
     #contact-bar {
         /* fixed-style */
-        top: 50%;
-        transform: translateY(-50%);
+        top: 20%;
+        /*transform: translateY(-50%);*/
     }
 }
 
@@ -194,4 +194,7 @@
 #contact-bar a {
     /*background: rgba(74,74,74,0);*/
     color: #fff;
+}
+#contact-bar .icon:hover {
+    transform: translateY(-0.3rem);
 }
