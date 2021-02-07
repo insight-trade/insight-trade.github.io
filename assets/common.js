@@ -4,10 +4,10 @@ $(function() {
         text: 'To Top',
         min: 200,
         inDelay: 600,
-        outDelay: 400,
+        outDelay: 300,
         containerID: 'to-top',
         containerHoverID: 'to-top-hover',
-        scrollSpeed: 400,
+        scrollSpeed: 300,
         easingType: 'linear'
     };
 
