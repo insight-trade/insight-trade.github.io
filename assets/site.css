@@ -78,6 +78,19 @@
 #contact-bar .icon:hover {
     transform: translateY(-0.3rem);
 }
+#contact-bar .icon.fa-envelope:hover,
+#contact-bar .icon.fa-phone:hover {
+    color: lightskyblue;
+}
+#contact-bar .icon.fa-facebook-f:hover {
+    color: royalblue;
+}
+#contact-bar .icon.fa-twitter:hover {
+    color: deepskyblue;
+}
+#contact-bar .icon.fa-whatsapp:hover {
+    color: limegreen;
+}
 
 /* refactor */
 a {
