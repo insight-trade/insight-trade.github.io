@@ -327,8 +327,8 @@ footer .contact-list a {
 #site-nav {
     z-index: 199;
     position: absolute;
-    top: 9px;
-    right: 15px;
+    top: 17px;
+    right: 16px;
     background-color: #fdfdfd;
     border: 1px solid #e8e8e8;
     border-radius: 5px;
@@ -429,14 +429,8 @@ footer .contact-list a {
         padding: 0 0 0 1em;
         margin-left: 0;
     }
-
     #site-nav .menu-link {
         color: white;
-    }
-    #site-nav .menu-link:hover {
-        background-color: transparent;
-        text-decoration: none;
-        text-shadow: 6px 3px 6px black;
     }
     #site-nav label[for="nav-toggle"] {
         display: none
