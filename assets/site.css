@@ -294,7 +294,6 @@ footer .contact-list a {
 }
 .copyright {
     font-size: x-small;   
-    position: absolute;
     white-space: nowrap
 }
 
@@ -399,6 +398,10 @@ footer .contact-list a {
 }
 
 @media screen and (min-width: 35.5em) {
+    .copyright {
+        position: absolute;
+    }
+
     .category-title,
     .product-title {
         padding: 1em 1.3em;
